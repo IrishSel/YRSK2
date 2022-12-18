@@ -1,0 +1,12 @@
+<html>
+<head>
+</head>
+<body>
+    <svg >
+<polygon points="40,20 10,60 40,100 70,60" fill=“red”/>
+<g>
+    <polygon points="160,10 130,30 160,70 190,30" fill=“red”/>
+    </g>
+</svg>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Text</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <svg width="10000px" height="800px">
+        <defs>
+          <linearGradient id="textgradient" x1="0%" x2="0%" y1="0%" y2="100%">  
+            <stop stop-color="#594bf2" offset="0%"/>  
+            <stop stop-color="#e56abc" offset="100%"/>  
+        </linearGradient>  
+          <path id="textpath" fill="none" stroke="#000000" d="M0.057,0.024c0,0,10.99,51.603,102.248,51.603c91.259,0,136.172,53.992,625.172,53.992  "/>
+          <path id="textpathh" fill="none" stroke="#000000" d="M725,105 a1,1 0 0,100 480,60 "/>
+        </defs>
+        <use xlink:href="#textpath"/>
+        <text x="15" y="10" fill="url(#textgradient)" font-size="34">
+        <textPath xlink:href="#textpath"> Я изобрел понятие «объектно-ориентированный», — Alan Kay</textPath>
+        </text>
+        <use xlink:href="#textpathh"/>
+        <text x="15" y="10" fill="url(#textgradient)" font-size="34">
+          <textPath xlink:href="#textpathh">  но могу заявить, что не имел в виду C++ при этом.</textPath>
+        </text>
+      </svg>
+  </body>
+  </html>
