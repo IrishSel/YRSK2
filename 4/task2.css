@@ -1,0 +1,11 @@
+ul {
+    list-style: none; 
+   }
+   li::before {
+    content: "◻"; 
+    padding-right: 7px; 
+    color: black; 
+   }
+.checkbox{
+    display: none;
+}

@@ -1,0 +1,57 @@
+.flex{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.shadow{
+    width: 33%;
+    height: 100px;
+    background-color: rgb(223, 222, 222);
+    margin: 20px;
+    text-align: center; 
+    cursor: pointer;
+}
+.flex .shadow:nth-child(1) {
+    box-shadow: -7px -7px rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(1):hover {
+    transition: all .5s linear;
+    box-shadow: -9px -9px rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(2) {
+    box-shadow: -6px -6px 5px rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(2):hover {
+    transition: all .5s linear;
+    box-shadow: -9px -9px 0 rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(3) {
+    box-shadow: -6px -6px 0 5px rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(3):hover {
+    transition: all .5s linear;
+    box-shadow: -9px -9px 0 0 rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(4) {
+    box-shadow: -6px -6px 5px 5px rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(4):hover {
+    transition: all .5s linear;
+    box-shadow: -9px -9px 0 0 rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(5) {
+    box-shadow: 0 0 5px 2px rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(5):hover {
+    transition: all .5s linear;
+    box-shadow: 0 0 0 9px rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(6) {
+    box-shadow: 0 0 6px 6px rgb(119, 112, 112);
+}
+.flex .shadow:nth-child(6):hover {
+    transition: all .5s linear;
+    box-shadow: 0 0 0 9px rgb(119, 112, 112);
+}

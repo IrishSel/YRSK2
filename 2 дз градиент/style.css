@@ -1,0 +1,36 @@
+.grad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flag{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    flex-flow: column wrap;
+    border: 1px solid grey;
+}
+.flag:nth-child(1){
+    background: linear-gradient( to right, green 33%, white 33%, white 66%, orange 66%);
+}
+.flag:nth-child(2){
+    background: linear-gradient(180deg, rgb(218, 44, 44) 25%, rgb(23, 23, 105) 20%, rgb(23, 23, 105) 50%, rgb(255, 230, 0) 50%,  rgb(255, 230, 0)
+     75%, rgb(13, 163, 13) 70%);
+}
+.flag:nth-child(3){
+    background: linear-gradient(45deg,red 30%, rgba(255,255,255,1) 19%, rgba(255,255,255,1) 34%, black 20%, black 60%, rgba(255,255,255,1) 50%,rgba(255,255,255,1) 65%, red 65%);
+}
+.flag:nth-child(4){
+    background: linear-gradient(-45deg,red 40%, yellow 23%, yellow 66%, green 67%);
+}
+.flag:nth-child(5) {
+    background: linear-gradient(180deg,rgb(18, 151, 212) 30%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 35%, black 35%, black 60%, rgba(255,255,255,1) 60%,rgba(255,255,255,1) 65%, rgb(18, 151, 212) 65%);
+}
+.white {
+    width: 33.33%;
+    height: 100%;
+    background-color: white;
+}
+.flag:nth-child(6) {
+    background: linear-gradient(180deg, red 50%, green 50%);
+}

@@ -1,0 +1,21 @@
+.body{
+font-size: 18pt;
+}
+.fil1{
+    filter: hue-rotate(90deg);
+    margin: 20px;
+}
+.fil2{
+    box-shadow: 12px 7px 12px 5px rgb(255, 255, 92);
+    filter: brightness(45%);
+    margin: 20px;
+}
+.fil3{
+    filter: sepia(70%);
+    margin: 20px;
+}
+.fil4{
+    box-shadow: 3px 5px 5px 5px rgb(0, 38, 255),9px 20px 15px 5px rgb(0, 255, 0);
+    filter:saturate(1800%);
+    margin: 20px;
+}

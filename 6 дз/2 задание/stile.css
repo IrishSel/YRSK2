@@ -1,0 +1,54 @@
+@keyframes raw_anim{
+    to{
+        transform: skewX(-180deg);
+    }
+    from{
+        transform: skewX(0deg);
+    }
+
+}
+@keyframes anim_pen{
+    25%{
+        transform: skewX(-12deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    75%{
+        transform: skewX(12deg);
+    }
+    100%{
+        transform: skewX(0deg);
+    }
+}
+.clock{
+    width: 70%;
+    height: 100%;
+    top:50px;
+    left:550px;
+    position: absolute;
+}
+.cogwheel{
+    top:450px;
+    left: 590px;
+    position: absolute;
+    animation-iteration-count:infinite ;
+    animation-name: raw_anim;
+    animation-duration: 3s;
+}
+.cog{
+    top:470px;
+    left: 675px;
+    position: absolute;
+    animation-iteration-count:infinite ;
+    animation-name: raw_anim;
+    animation-duration: 3s;
+}
+.pendulum{
+    top:205px;
+    left:545px;
+    position: absolute;
+    animation-iteration-count:infinite ;
+    animation-name: anim_pen;
+    animation-duration: 5s;
+}
